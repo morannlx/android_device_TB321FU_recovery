@@ -103,10 +103,10 @@ TW_FRAMERATE            := 120
 TW_MAX_BRIGHTNESS       := 4095
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_THEME := landscape_hdpi #portrait_hdpi
-TW_ROTATION := 0 
-RECOVERY_TOUCHSCREEN_SWAP_XY := true    
-RECOVERY_TOUCHSCREEN_FLIP_Y := true 
+TW_THEME := portrait_hdpi
+TW_ROTATION := 270 
+#RECOVERY_TOUCHSCREEN_SWAP_XY := true    
+#RECOVERY_TOUCHSCREEN_FLIP_Y := true 
 
 # TWRP file system
 RECOVERY_SDCARD_ON_DATA     := true
@@ -122,7 +122,7 @@ PLATFORM_VERSION                := 99.87.36
 PLATFORM_VERSION_LAST_STABLE    := $(PLATFORM_VERSION)
 PLATFORM_SECURITY_PATCH         := 2099-12-31
 VENDOR_SECURITY_PATCH           := $(PLATFORM_SECURITY_PATCH)
-TW_DEVICE_VERSION               := Lenovo Xiaoxin Pad Pro GT
+TW_DEVICE_VERSION               := Lenovo Legion Y700 (2025) | morannlx
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -136,7 +136,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT             := true
 TW_EXTRA_LANGUAGES                      := true
 TW_LOAD_VENDOR_MODULES                  := "adsp_loader_dlkm.ko goodix_core.ko oplus_chg_v2.ko stm_st54se_gpio.ko nxp-nci.ko"
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI      := true
-#TW_NO_SCREEN_BLANK                     := true
+TW_NO_SCREEN_BLANK                     := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID  := true
 TW_HAS_EDL_MODE                         := true
 

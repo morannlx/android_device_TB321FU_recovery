@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_topaz.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_TB321FU.mk

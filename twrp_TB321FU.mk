@@ -4,20 +4,20 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/topaz
+DEVICE_PATH := device/lenovo/TB321FU
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := tb710fu
+PRODUCT_RELEASE_NAME := tb321fu
 
 ## Device identifier
-PRODUCT_DEVICE := topaz
-PRODUCT_NAME := twrp_topaz
+PRODUCT_DEVICE := tb321fu
+PRODUCT_NAME := twrp_TB321FU
 PRODUCT_BRAND := lenovo
-PRODUCT_SYSTEM_DEVICE := TB710FU
-PRODUCT_MODEL := TB710FU
+PRODUCT_SYSTEM_DEVICE := TB321FU
+PRODUCT_MODEL := TB321FU
 PRODUCT_MANUFACTURER := lenovo
 
 
