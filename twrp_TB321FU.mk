@@ -10,10 +10,10 @@ DEVICE_PATH := device/lenovo/TB321FU
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := tb321fu
+PRODUCT_RELEASE_NAME := TB321FU
 
 ## Device identifier
-PRODUCT_DEVICE := tb321fu
+PRODUCT_DEVICE := TB321FU
 PRODUCT_NAME := twrp_TB321FU
 PRODUCT_BRAND := lenovo
 PRODUCT_SYSTEM_DEVICE := TB321FU
