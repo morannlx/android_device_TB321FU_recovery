@@ -1,3 +1,6 @@
+# 目前还不能正常使用，请勿刷入
+
+
 # TWRP device tree for Lenovo Legion Y700 (2025) 
 
 TB321FU is a smart tablet from Lenovo.
