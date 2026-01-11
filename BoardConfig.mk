@@ -122,7 +122,7 @@ PLATFORM_VERSION                := 99.87.36
 PLATFORM_VERSION_LAST_STABLE    := $(PLATFORM_VERSION)
 PLATFORM_SECURITY_PATCH         := 2099-12-31
 VENDOR_SECURITY_PATCH           := $(PLATFORM_SECURITY_PATCH)
-TW_DEVICE_VERSION               := Lenovo Legion Y700 (2025) | morannlx
+TW_DEVICE_VERSION               := Lenovo Legion Y700 (2025)
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -137,6 +137,7 @@ TW_EXTRA_LANGUAGES                      := true
 TW_LOAD_VENDOR_MODULES                  := "adsp_loader_dlkm.ko goodix_core.ko oplus_chg_v2.ko stm_st54se_gpio.ko nxp-nci.ko"
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI      := true
 TW_NO_SCREEN_BLANK                     := true
+TW_NO_SCREEN_TIMEOUT := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID  := true
 TW_HAS_EDL_MODE                         := true
 
