@@ -22,11 +22,11 @@ on:
       DEVICE_PATH:
         description: "Device path device/"
         required: true
-        default: "lenovo/TB321FU"
+        default: "lenovo/kirby"
       DEVICE_NAME:
         description: "Device name"
         required: true
-        default: "TB321FU"
+        default: "kirby"
       LUNCH_TARGET:
         description: "lunch twrp_ (default same as device name)"
         required: false

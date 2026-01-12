@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/TB321FU
+DEVICE_PATH := device/lenovo/kirby
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -13,8 +13,8 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := TB321FU
 
 ## Device identifier
-PRODUCT_DEVICE := TB321FU
-PRODUCT_NAME := twrp_TB321FU
+PRODUCT_DEVICE := kirby
+PRODUCT_NAME := twrp_kirby
 PRODUCT_BRAND := lenovo
 PRODUCT_SYSTEM_DEVICE := TB321FU
 PRODUCT_MODEL := TB321FU
